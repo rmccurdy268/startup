@@ -4,5 +4,4 @@ This is a startup project for cs 260 with brother Jensen. This is a semester- lo
 
 this is a comment made on my local 
 
-this is a change i've done from github.
-
+this is a change i made to merge the files
