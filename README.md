@@ -1,17 +1,5 @@
 # startup
-#In this assignment I learned a lot about git and github as well. I also integrated my vscode with git, which will make it much easier to keep my code up to date and accesible from anywhere. I think this is really going to make things a lot easier for me to coordinate what is happening between my laptop and my desktop computers.
-
-
-
-This is a startup project for cs 260 with brother Jensen. This is a semester- long project, used to demonstrate our mastery of all of the concepts we cover in class.
-
-
-this is a comment made on my local 
-
-this is a change i made to merge the files
-
-
-
+A note about my simon project so far: It was really helpful to be able to look through the code of the example simon webpage. I couldn't understand how to make the site function or play a memory sequence, but I figure that's something we will add in later as it may not be possible with HTML only. I learned a lot about the organization of HTML files as well as how to link the html files together and use images in them. This project gives me a place to start so I can begin to work on my startup project. I will start today!
 
 Everything below this line applies to startup project
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
