@@ -4,12 +4,12 @@
 
 ~This is a useless note~
 
--This
+- This
 
--Should
+- Should
 
--Be
+- Be
 
--A
+- A
 
-*List
+* List
