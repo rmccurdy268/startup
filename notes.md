@@ -8,3 +8,6 @@ During this assignment I feel like I've learned a lot about git and markdown. I 
 * **git push**: send it back to the space station!
 
 ## Link to my [readme](https://github.com/rmccurdy268/startup/blob/main/README.md)
+
+
+###### This is a test for github on VSCODE
