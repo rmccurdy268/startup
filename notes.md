@@ -1,4 +1,4 @@
-#Notes for CS240
+# Notes for CS240
 
 ~This is a bad note~
 
