@@ -6,3 +6,5 @@ During this assignment I feel like I've learned a lot about git and markdown. I 
 * **make any changes you want!**
 * **git commit -am "comment about what changes I made"**: this will help so you can tell when and where you made mistakes
 * **git push**: send it back to the space station!
+
+## Link to my [readme](https://github.com/rmccurdy268/startup/blob/main/README.md)
