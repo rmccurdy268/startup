@@ -1,2 +1,2 @@
-# startup
-startup repository for cs260
+# **HealthCheck**
+Are your clothes fitting tight? Do you sigh at the mirror when you catch yourself at the wrong angle? Do you feel more like Jabba the Hutt than Luke Skywalker? Is it time to make a change, but you don't know where to start? Look no futher! Healthcheck is a companion for you to begin your journey towards the physique you've always wanted. With Healthcheck you are paired with a personal trainer who will tailor your workouts to help you achieve your goals as quickly and efficiently as possible. 
