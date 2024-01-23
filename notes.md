@@ -11,3 +11,8 @@ During this assignment I feel like I've learned a lot about git and markdown. I 
 
 
 ###### This is a test for github on VSCODE
+
+##Notes about HTML:
+-HTML is mostly for structure and content of a web page. 
+-<a> is for links
+-<span> is used for inline styling
