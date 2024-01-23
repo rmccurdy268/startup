@@ -33,3 +33,5 @@ For the HTML Deliverable I put together most of the structure for the different 
 - **Pseudo-Authentification** - The Input box and login button currently work to get you into the next page. The info submitted here will later be used for authentification.
 
 - **Database** - The Past Workouts page is currently fake list of workouts. This list will later be pulled and accessed from the database.
+
+- **Web Service** - Web service calls will be done by the inspiration tab, which is currently displaying an inspirational quote stored in my repo as a placeholder.
