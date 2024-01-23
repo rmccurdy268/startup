@@ -19,3 +19,17 @@ Are your clothes fitting tight? Do you sigh at the mirror when you catch yoursel
 - **Database Persistence** - This technology will be used to store the user's workout history which can be used for refence in the *Past Workouts* page.
 - **Web Socket** - Web Socket technology will be used for the Direct Messages with the personal trainer and the workout of the day that he submits for the user.
 - **Web Framework** I'm not sure what this will do but surely it will be awesome
+
+
+## HTML Deliverable
+For the HTML Deliverable I put together most of the structure for the different pages of the project. 
+
+- **HTML pages** - Five HTML files that include a login screen, a direct message screen, a home page, an inspirational quote screen and a screen to look at past workouts.
+
+- **Websocket Stand-in** - The visiualization of a conversation with your personal trainer on the direct message page represents the realtime chat that will be implemented with websocket
+
+- **Inter-connectivity** - The Login screen is the index.html file, so it will be loaded first. After passing through the login screen you are taken to the home page. The home page can connect you to any of the other pages except for the login screen. The DM button is going to be a small speech bubble icon in one of the top left corners, and there is a link to the DM screen on every page that represents the speech bubble icon. Every page except for the home page and login page have a link to get back to the home page.
+
+- **Pseudo-Authentification** - The Input box and login button currently work to get you into the next page. The info submitted here will later be used for authentification.
+
+- **Database** - The Past Workouts page is currently fake list of workouts. This list will later be pulled and accessed from the database.
