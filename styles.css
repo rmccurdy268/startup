@@ -1,0 +1,12 @@
+.dmBox{
+    font-size: 10px;
+    font-family:Arial;
+    background-color: coral;
+    border:rgb(0, 0, 0), solid, medium;
+    border-radius: 1em;
+    display:flex;
+    flex-direction: row;
+    flex: 0 40px;
+    align-self: right;
+    width:40px;
+}
