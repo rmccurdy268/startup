@@ -1,14 +1,26 @@
+
 .dmBox{
-    font-size: 10px;
+    font-size: 25px;
     font-family:Arial;
     background-color: coral;
     border:thin solid black;
     border-radius: 1em;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 0 50px;
-    align-self: right;
-    text-align: justify;
+    align-self: stretch;
+    text-align: center;
     align-content: justify;
-    width:50px;
+    width: 100px;
+    position:absolute; right:2px; top:2px;
+}
+.verticalSplit{
+    border:thin solid black;
+    display:flex;
+    flex-direction:column;
+}
+.horizontalSplit{
+    border:thin solid black;
+    display:flex;
+    flex-direction:row;
 }
