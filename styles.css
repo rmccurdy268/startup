@@ -15,12 +15,37 @@
     position:absolute; right:2px; top:2px;
 }
 .verticalSplit{
-    border:thin solid black;
     display:flex;
     flex-direction:column;
+    flex: 0 50px;
 }
 .horizontalSplit{
-    border:thin solid black;
     display:flex;
     flex-direction:row;
+    flex: 0 50px;
+}
+.nextWorkoutBox{
+    background-color: bisque;
+    border-radius: .2em;
+    padding:0px;
+    padding-right: 0px;
+    margin:auto;
+    font-size: 65px;
+    text-align: center;
+}
+.pastWorkoutsBox{
+    background-color:aquamarine;
+    border-radius: .2em;
+    padding:0px;
+    padding-left: 0px;
+    margin:auto;
+    font-size: 65px;
+    text-align: center;
+}
+.inspirationBox{
+    background-color:cadetblue;
+    border-radius: .1em;
+    padding:10px;
+    margin:auto;
+    font-size: 165px;
 }
