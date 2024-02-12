@@ -3,7 +3,7 @@
     font-family:Arial;
     background-color: coral;
     border:thin solid black;
-    border-radius: 1em;
+    border-radius: .7em;
     display:flex;
     flex-direction: column;
     flex: 0 50px;
@@ -11,7 +11,7 @@
     text-align: center;
     align-content: justify;
     width: 100px;
-    position:absolute; right:2px; top:2px;
+    position:absolute; right:8px; top:8px;
 }
 .verticalSplit{
     display:flex;
@@ -60,15 +60,17 @@
 }
 header{
     background-color: darkgray;
-    padding:0px;
+    padding:1px;
     margin:0px;
+    border-radius: .7em;
+    
 }
 .backButton{
     font-size: 25px;
     font-family:Arial;
     background-color: lightskyblue;
     border:thin solid black;
-    border-radius: 1em;
+    border-radius: .7em;
     display:flex;
     flex-direction: column;
     flex: 0 50px;
@@ -76,5 +78,9 @@ header{
     text-align: center;
     align-content: justify;
     width: 100px;
-    position:absolute; left:2px; top:2px;
+    position:absolute; left:8px; top:8px;
+}
+body{
+    margin:8px;
+    height:100%
 }
