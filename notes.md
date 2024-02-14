@@ -16,3 +16,9 @@ During this assignment I feel like I've learned a lot about git and markdown. I 
 -HTML is mostly for structure and content of a web page. 
 -<a> is for links
 -<span> is used for inline styling
+
+##Notes about CSS:
+-CSS makes things pretty
+-bootstrap and other frameworks can make things a lot easier and simple
+-Lots of examples in course content of good setup
+-Flex is the goat

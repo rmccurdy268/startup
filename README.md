@@ -35,3 +35,11 @@ For the HTML Deliverable I put together most of the structure for the different 
 - **Database** - The Past Workouts page is currently fake list of workouts. This list will later be pulled and accessed from the database.
 
 - **Web Service** - Web service calls will be done by the inspiration tab, which is currently displaying an inspirational quote stored in my repo as a placeholder.
+
+## CSS Deliverable
+During this section of the project I worked hard to make my website look like my initial sketches. 
+- Flex was my best friend, it helped me organize my content very efficiently
+- Windows are resizeable and do not get disproportionately large or small when the screen is resized.
+- DM Box and Home page buttons (back buttons) are all uniform across all pages they are used on. 
+- I used bootstrap framework for my login button, which looks more like the sketches.
+- All content that needs to be centered is now centered and looks more organized and put-together than with only HTML.
