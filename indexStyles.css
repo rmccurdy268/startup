@@ -4,6 +4,7 @@ body{
     margin: 0;
     height: 100vh;
     text-align: center;
+    background-color: rgb(154, 205, 227);
 }
 footer{
     flex: 0 30px;
@@ -13,7 +14,7 @@ header{
     background-color: darkgray;
     padding:1px;
     margin:0px;
-    border-radius: .7em;
+    
 }
 main{
     flex: 1;

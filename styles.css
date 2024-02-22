@@ -1,5 +1,5 @@
 .dmBox{
-    font-size: 25px;
+    font-size: 20px;
     font-family:Arial;
     background-color: coral;
     border:thin solid black;
@@ -10,8 +10,9 @@
     align-self: stretch;
     text-align: center;
     align-content: justify;
-    width: 100px;
+    width: 10vh;
     position:absolute; right:8px; top:8px;
+    height:10vh;
 }
 .verticalSplit{
     display:flex;
@@ -63,7 +64,8 @@ header{
     padding:1px;
     margin:0px;
     border-radius: .7em;
-    
+    flex:0;
+    height:10vw;
 }
 .backButton{
     font-size: 25px;
@@ -82,9 +84,16 @@ header{
 }
 body{
     margin:8px;
-    height:100vh
+    height:98vh;
+    background-color: rgb(154, 205, 227);
+    display: flex;
+    flex-direction: column;
 }
 footer{
     justify-content: center;
     text-align: center;
+    flex: 0;
+}
+main{
+    flex:1;
 }
