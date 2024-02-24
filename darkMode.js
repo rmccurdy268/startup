@@ -1,6 +1,6 @@
 function darkModeCheck(){
     const prefersDarkMode = window.matchMedia('prefers-color-scheme: dark').matches;
-    localStorage.setItem("darkMode", prefersDarkMode.valueOf);
+    localStorage.setItem("darkMode", prefersDarkMode);
 }
 
 function darkMode(){
