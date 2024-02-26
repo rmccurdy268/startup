@@ -1,0 +1,50 @@
+.button:active {
+    transform: translateY(2px);
+}
+.chat{
+    background:#b2808b;
+    padding: 1em;
+    max-width: 98vw;
+    height:80vh;
+    border-radius: 1em;
+}
+.messages{
+    height : 75vh;
+    overflow-y: scroll;
+}
+.dm-message-text{
+    font-size: 1em;
+    word-wrap: break-word;
+    padding-left: 0.5em;
+}
+.message-sender{
+    font-size: 1em;
+    font-weight:bolder;
+    padding: .2em;
+}
+.my-messages{
+    background-color:#a5c5e2;
+    border-radius: .5em;
+    margin-bottom: .5em;
+    
+}
+.jarrett-messages{
+    background-color: darkgray;
+    border-radius: .5em;
+}
+.form-for-input{
+    display:flex;
+    align-items: center;
+}
+.chat-input{
+    padding:0.5em;
+    border:none;
+    border-radius: .5em;
+    flex-grow:1;
+}
+.message-send-button{
+    background-color: #a5c5e2;
+    font-size: 1.4em;
+    margin-left:.25em;
+    border-radius: .5em;
+}
