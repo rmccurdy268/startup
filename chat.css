@@ -2,11 +2,11 @@
     background:#b2808b;
     padding: 1em;
     max-width: 98vw;
-    height:80vh;
+    height:75vh;
     border-radius: 1em;
 }
 .messages{
-    height : 75vh;
+    height : 70vh;
     overflow-y: scroll;
 }
 .dm-message-text{
