@@ -43,3 +43,9 @@ During this section of the project I worked hard to make my website look like my
 - DM Box and Home page buttons (back buttons) are all uniform across all pages they are used on. 
 - I used bootstrap framework for my login button, which looks more like the sketches.
 - All content that needs to be centered is now centered and looks more organized and put-together than with only HTML.
+
+## Javascript Deliverable
+I used Javascript to start to incorporate a few new features.
+-I incorporated a chat interface where you can send messages that are displayed on the screen. The page will then wait a second and send a fixed response from the person you are chatting with. 
+-The login box on the index.html page is now used to save the user's name in the local storage, which is then used to greet the user on the home page and also used for verification on the DM page. 
+-The past workouts screen is now creating an array of workout paths and stores the array as a JSON object in the local storage. These workouts are then brought back from the local database and the paths are taken back out of the array to create links to each of the past workouts. Currently all of the links point to the same place but the real database will hold the history of the workouts sent by the trainer. 
