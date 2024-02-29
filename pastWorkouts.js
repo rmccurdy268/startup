@@ -1,15 +1,15 @@
 //These will be in the database later in this project
-const workout1 = '/assets/dailiyWorkoutDemo.png';
-const workout2 = '/assets/dailiyWorkoutDemo.png';
-const workout3 = '/assets/dailiyWorkoutDemo.png';
-const workout4 = '/assets/dailiyWorkoutDemo.png';
-const workout5 = '/assets/dailiyWorkoutDemo.png';
+const workout1 = '/assets/dailyWorkoutDemo.png';
+const workout2 = '/assets/dailyWorkoutDemo.png';
+const workout3 = '/assets/dailyWorkoutDemo.png';
+const workout4 = '/assets/dailyWorkoutDemo.png';
+const workout5 = '/assets/dailyWorkoutDemo.png';
 let workouts =[workout1, workout2, workout3, workout4, workout5];
 localStorage.setItem("workouts", JSON.stringify(workouts));
 
 const newWorkout = (path) => `
     <div class="workoutItem">
-        <a href = "${path}">Workout</a>
+        <a href=${path}>Workout</a>
     </div>
 `
 const addWorkout = (thisWorkout)=>{
