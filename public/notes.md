@@ -22,3 +22,7 @@ During this assignment I feel like I've learned a lot about git and markdown. I 
 -bootstrap and other frameworks can make things a lot easier and simple
 -Lots of examples in course content of good setup
 -Flex is the goat
+
+##Notes about NODE and EXPRESS
+-Use fetch to call external API's 
+-index.js file gets called with node and it sets up the live service. an index.js file will declare a port to serve on, declare the place where all the frontend files are. through node, fetch and express a web service is set up.
