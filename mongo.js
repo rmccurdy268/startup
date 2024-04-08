@@ -1,6 +1,8 @@
 const {MongoClient} = require('mongodb');
 const data = require('./listingData');
 const uuid = require('uuid');
+const cookieParser = require('cookie-parser');
+const bcrypt = require('bcrypt');
 const colName= "listings";
 
 const url = `mongodb+srv://${config.userName}:${config.password}@${config.hostname}`;
@@ -8,14 +10,12 @@ const url = `mongodb+srv://${config.userName}:${config.password}@${config.hostna
 async function main(){
     const client = new MongoClient(url);
 
-    const result = await client.db.
 }
 
 function getUser(email) {
   return collection.findOne({ email: email });
 }
 
-const bcrypt = require('bcrypt');
 
 async function createUser(email, password) {
   // Hash the password before we insert it into the database
