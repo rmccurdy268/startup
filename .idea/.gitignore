@@ -2,3 +2,4 @@
 node_modules/
 /shelf/
 /workspace.xml
+/dbConfig.json
