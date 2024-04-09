@@ -21,9 +21,11 @@ async function process(endpoint){
     window.location.href = 'home.html';
   } else {
     const body = await response.json();
-    const modalEl = document.querySelector('#msgModal');
-    modalEl.querySelector('.modal-body').textContent = `⚠ Error: ${body.msg}`;
-    const msgModal = new bootstrap.Modal(modalEl, {});
-    msgModal.show();
+    var tag = document.createElement("p");
+    var text = ((endpoint === '/auth/login')?document.createTextNode("Given credentials do not match database"):document.createTextNode("user already exists"));
+    tag.appendChild(text);
+    var element = document.getElementById("errorResponse");
+    element.appendChild(tag);
   }
 }
+

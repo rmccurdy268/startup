@@ -16,7 +16,7 @@
     <main>
       <!--UserName and Password part of Authentification-->
       <h1 style="font-size: 20vh;">Log In</h1>
-      <form method="get" action="home.html">
+      <div class="get">
       </br>
       <label for="name">Username</label>
       <input type="text" id="username" placeholder="Username" />
@@ -27,7 +27,8 @@
       </br>
       <button class="btn btn-outline-primary me-2" onclick="login()">Login</button>
       <button class="btn btn-outline-primary me-2" onclick="register()">Register</button>
-      </form>
+      <div id ="errorResponse"></div>
+    </div>
     </main>
     <footer>
         <a href="https://github.com/rmccurdy268/startup.git">Github Repository</a>

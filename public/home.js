@@ -7,7 +7,7 @@ playerNameEl.textContent = this.getAccountName();
 
 function logout() {
     localStorage.removeItem('userName');
-    fetch(`/api/auth/logout`, {
+    fetch(`/auth/logout`, {
       method: 'delete',
     }).then(() => (window.location.href = '/'));
-  }
+  } 
