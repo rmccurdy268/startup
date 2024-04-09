@@ -1,8 +1,8 @@
-function login() {
+async function login() {
     process('/auth/login');
   }
 
-function register(){
+async function register(){
   process('/auth/create');
 }
 
@@ -17,11 +17,9 @@ async function process(endpoint){
     },
   });
   if (response.ok) {
-    localStorage.setItem('userName', userName);
+    localStorage.setItem('userName', nameEl);
     window.location.href = 'home.html';
   } else {
-    localStorage.setItem("userName", nameEl.value);
-    window.location.href = "inspiration.html";
     const body = await response.json();
     const modalEl = document.querySelector('#msgModal');
     modalEl.querySelector('.modal-body').textContent = `⚠ Error: ${body.msg}`;

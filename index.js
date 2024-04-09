@@ -5,6 +5,7 @@ const uuid = require('uuid');
 const bcrypt = require('bcrypt');
 const app = express();
 const config = require('./dbConfig.json');
+const authCookieName = 'token';
 
 const url = `mongodb+srv://${config.userName}:${config.password}@${config.hostname}`;
 const client = new MongoClient(url);
@@ -57,6 +58,11 @@ app.get('/user/me', async (req, res) => {
     return;
   }
   res.status(401).send({ msg: 'Unauthorized' });
+});
+
+app.delete('/auth/logout', (_req, res) => {
+  res.clearCookie(authCookieName);
+  res.status(204).end();
 });
 
 function getUser(email) {
