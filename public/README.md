@@ -55,3 +55,8 @@ Node JS and Express setup, and Inspirational quote page is running.
 - All files are moved into public file and the system is now set up with an index.js file to run the website. 
 - API call is made to get a random inspirational quote for the user to get motivated for their workout!
 
+## Login Deliverable
+Login verification and database connection setup.
+- I added files to a database to represent the different workouts that can be given out. They set up to load from the database into the reworked past workouts page.
+- I added verification for accounts and a way to set up new accounts that will encrypt the user's password and store it with a hash.
+- Added multiple endpoints to query the database 
