@@ -1,13 +1,18 @@
 .workoutsList{
     height:75vh;
     align-items: center;
+    align-content: center;
+    text-align:center;
     display:flex;
     flex-direction: column;
     border-radius: 1em;
     overflow-y: scroll;
+    justify-content: center;
+    position: fixed;
 }
 .workoutItem{
-    font-size:10vh;
+    font-size:3vh;
+    margin-left: 20vh;
 
 }
 h2{

@@ -20,6 +20,8 @@ app.use(express.static('public'));
 
 const collection = client.db('user').collection('accounts');
 
+const workoutCollection = client.db('user').collection('workouts');
+
 app.use(cookieParser());
 app.use(express.json());
 
@@ -60,6 +62,15 @@ app.get('/user/me', async (req, res) => {
   res.status(401).send({ msg: 'Unauthorized' });
 });
 
+//getWorkout for muscle group
+
+app.get('/workout', async(req, res) =>{
+  authToken = req.cookies['token'];
+  const cursor = workoutCollection.find();
+  const workouts = await cursor.toArray();
+  res.send({list:workouts});
+});
+
 app.delete('/auth/logout', (_req, res) => {
   res.clearCookie(authCookieName);
   res.status(204).end();
@@ -77,7 +88,6 @@ async function createUser(email, password) {
     token: uuid.v4(),
   };
   await collection.insertOne(user);
-
   return user;
 }
 
